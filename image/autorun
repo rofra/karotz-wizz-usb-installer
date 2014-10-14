@@ -70,6 +70,12 @@ function LOG {
 }
 
 
+if [ -f /mnt/usbkey/updatedone ]; then
+    LOG "[USBKEY] ## UPDATE ALREADY DONE"
+    exit 0
+fi
+
+
 
 led_orange
 PLAY "start"
@@ -125,10 +131,11 @@ sleep 5
 
 led_green
 
-mv /mnt/usbkey/autorun 	 /mnt/usbkey/autorun.1	
-PLAY "ok"
-sleep 60
+sleep 30
+PLAY "oktermine"
 
+touch /mnt/usbkey/updatedone
+echo  "::once:/sbin/reboot" >> /etc/inittab
 
 
 
