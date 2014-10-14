@@ -1,4 +1,4 @@
-# karotz-wizz-rootfs-image
+# karotz-wizz-usb-installer
 
 ## What is this all about ?
 
@@ -12,13 +12,13 @@ This package uses the exploit related in epicmonkey blog, combined with wizz roo
 
 ## How to use ?
 
-Copy the files in image/ directory in the root of a USB key formatted in FAT32. It allow the overriding of kernel sources automatically.
+Copy the files in image/ directory in the root of a USB key formatted in FAT32. It allow the overriding of system sources automatically in rootfs format.
 
 ## Resources
 
-<a href="http://wizz-cc.blogspot.fr/2012/09/karotz-rootfs-access.html">http://wizz-cc.blogspot.fr/2012/09/karotz-rootfs-access.html</a> : Explanation of the changes in r1 version
+[http://wizz-cc.blogspot.fr/2012/09/karotz-rootfs-access.html](http://wizz-cc.blogspot.fr/2012/09/karotz-rootfs-access.html) : Explanation of the changes in r1 version
 
-<a href="https://groups.google.com/forum/#!msg/karotzsys/7kK9cpjsecw/5xuCEzwnzPkJ">https://groups.google.com/forum/#!msg/karotzsys/7kK9cpjsecw/5xuCEzwnzPkJ</a> : Explanation of the changes in r2 version
+[https://groups.google.com/forum/#!msg/karotzsys/7kK9cpjsecw/5xuCEzwnzPkJ](https://groups.google.com/forum/#!msg/karotzsys/7kK9cpjsecw/5xuCEzwnzPkJ) : Explanation of the changes in r2 version
 
 [http://epicmonkey.livejournal.com/40052.html](http://epicmonkey.livejournal.com/40052.html) : Explanation of the material + software exploit.
 
