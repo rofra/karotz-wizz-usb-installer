@@ -12,7 +12,7 @@ This package uses the exploit related in epicmonkey blog, combined with wizz roo
 
 ## How to use ?
 
-Copy the files in image/ directory in the root of a USB key formatted in FAT32. It allow the overriding of system sources automatically in rootfs format.
+Copy the files in image/ directory in the root of a USB key formatted in FAT32 and reboot it. It allows the overriding of system sources automatically in rootfs format.
 
 ## Resources
 
